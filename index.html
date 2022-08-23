@@ -1,0 +1,1282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Summer E-Newsletter</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      table {
+        border-spacing: 0;
+      }
+
+      td {
+        padding: 0;
+      }
+
+      img {
+        border: 0;
+      }
+
+      .two-columns {
+        /* text-align: center; */
+        /* font-size: 0; */
+        padding: 20px 0;
+      }
+
+      .two-columns .column {
+        width: 100%;
+        max-width: 600px;
+      }
+
+      .two-columns .padding {
+        padding: 10px;
+      }
+
+      /* IMAGES */
+
+      .ice-cream {
+        max-width: 275px;
+        width: 275px;
+        margin-left: auto;
+      }
+
+      .summer-camp {
+        max-width: 275px;
+        width: 275px;
+      }
+
+      .cooling-centers {
+        width: 275px;
+        max-width: 275px;
+        margin: 0 auto;
+      }
+
+      .back-to-school {
+        width: 275px;
+        max-width: 275px;
+        margin: 0 auto;
+      }
+
+      .maritzas-story {
+        width: 275px;
+        max-width: 275px;
+        margin: 0 auto;
+      }
+
+      .andy-grammer {
+        width: 275px;
+        max-width: 275px;
+        margin: 0 auto;
+      }
+
+      /* ICE CREAM */
+
+      .ice-cream-mobile {
+        display: none;
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+
+      .ice-cream-desktop {
+        display: block;
+        margin-top: 30px;
+      }
+
+      /* SUMMER CAMP */
+
+      .summer-camp-mobile {
+        display: none;
+        margin-bottom: 50px;
+      }
+
+      .summer-camp-desktop {
+        display: block;
+        margin-bottom: 30px;
+      }
+
+      /* COOLING CENTERS */
+
+      .cooling-centers-mobile {
+        display: none;
+        margin-bottom: 25px;
+      }
+
+      .cooling-centers-desktop {
+        display: block;
+      }
+
+      /* BACK TO SCHOOL */
+
+      .back-to-school-mobile {
+        display: none;
+        margin-bottom: 25px;
+      }
+
+      .back-to-school-desktop {
+        display: block;
+        margin-top: 25px;
+      }
+
+      /* MARITZAS STORY */
+
+      .maritzas-story-mobile {
+        display: none;
+        margin-bottom: 25px;
+      }
+
+      .maritzas-story-desktop {
+        display: block;
+        margin-top: 25px;
+      }
+
+      /* ANDY GRAMMER */
+
+      .andy-grammer-mobile {
+        display: none;
+        margin-bottom: 25px;
+      }
+
+      .andy-grammer-desktop {
+        display: block;
+        margin-top: 25px;
+      }
+
+      @media screen and (max-width: 600px) {
+        table {
+          text-align: center;
+        }
+
+        .two-columns {
+          display: inline-block;
+          padding: 0;
+        }
+
+        .two-columns .column {
+          width: 75%;
+          margin: 0 auto;
+        }
+
+        .two-columns .column p {
+          text-align: center;
+        }
+
+        /* IMAGES */
+
+        .ice-cream {
+          width: 600px;
+          max-width: 100%;
+          margin: 0 auto;
+        }
+
+        .summer-camp {
+          width: 600px;
+          max-width: 100%;
+          margin: 0 auto;
+        }
+
+        .cooling-centers {
+          width: 600px;
+          max-width: 100%;
+          margin: 0 auto;
+        }
+
+        .back-to-school {
+          width: 600px;
+          max-width: 100%;
+          margin: 0 auto;
+        }
+
+        .maritzas-story {
+          width: 600px;
+          max-width: 100%;
+          margin: 0 auto;
+        }
+
+        .andy-grammer {
+          width: 600px;
+          max-width: 100%;
+          margin: 0 auto;
+        }
+
+        /* ICE CREAM */
+
+        .ice-cream-desktop {
+          display: none;
+        }
+
+        .ice-cream-mobile {
+          display: block;
+        }
+
+        /* SUMMER CAMP */
+
+        .summer-camp-desktop {
+          display: none;
+        }
+
+        .summer-camp-mobile {
+          display: block;
+        }
+
+        /* COOLING CENTERS */
+
+        .cooling-centers-desktop {
+          display: none;
+        }
+
+        .cooling-centers-mobile {
+          display: block;
+        }
+
+        /* BACK TO SCHOOL */
+
+        .back-to-school-desktop {
+          display: none;
+        }
+
+        .back-to-school-mobile {
+          display: block;
+        }
+
+        /* MARITZAS STORY */
+
+        .maritzas-story-desktop {
+          display: none;
+        }
+
+        .maritzas-story-mobile {
+          display: block;
+          margin-top: 25px;
+        }
+
+        /* ANDY GRAMMER */
+
+        .andy-grammer-desktop {
+          display: none;
+        }
+
+        .andy-grammer-mobile {
+          display: block;
+          margin-top: 25px;
+        }
+
+        /* BUTTON */
+
+        .button-desktop {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body style="margin: 0; padding: 0">
+    <center style="width: 100%; table-layout: fixed; padding-bottom: 40px">
+      <table
+        width="100%"
+        style="
+          width: 100%;
+          margin: 0;
+          max-width: 600px;
+          border-spacing: 0;
+          font-family: proxima nova;
+        "
+      >
+        <!-- HERO IMAGE -->
+        <tr>
+          <td>
+            <img src="images/Hero Section.png" usemap="#image-map" />
+
+            <map name="image-map">
+              <area
+                target="_blank"
+                alt="About Us"
+                title="About Us"
+                href="https://easternusa.salvationarmy.org/greater-new-york/about-us/"
+                coords="9,12,101,56"
+                shape="rect"
+              />
+              <area
+                target="_blank"
+                alt="Ways to Give"
+                title="Ways to Give"
+                href="https://easternusa.salvationarmy.org/greater-new-york/ways-to-give/"
+                coords="119,15,225,54"
+                shape="rect"
+              />
+              <area
+                target="_blank"
+                alt="Donate"
+                title="Donate"
+                href="https://give.salvationarmy.org/give/168051/#!/donation/checkout"
+                coords="500,14,588,56"
+                shape="rect"
+              />
+            </map>
+          </td>
+        </tr>
+        <!- HEADER -->
+        <tr>
+          <td>
+            <table style="margin-bottom: 20px">
+              <tr>
+                <p
+                  style="
+                    font-family: 'Adobe Jenson Pro';
+                    font-size: 26px;
+                    font-weight: bold;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    text-align: center;
+                  "
+                >
+                  Here's what The Salvation Army of Greater New York has been up
+                  to all summer!
+                </p>
+              </tr>
+              <tr>
+                <p style="text-align: center">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Praesentium, atque?
+                </p>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!- SUMMER CAMP DESKTOP -->
+        <tr class="summer-camp-desktop">
+          <td>
+            <table width="100%">
+              <tr>
+                <td class="two-columns">
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <img
+                                class="summer-camp"
+                                src="images/responsive-images/summer-camp-image.png"
+                                alt="Summer Camp"
+                                style="border-radius: 2px"
+                              />
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+
+                <td class="two-columns" style="width: 100%">
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <p style="font-weight: bold">Summer Camp</p>
+                              <p style="font-size: 14px; text-align: justify">
+                                This summer, we welcomed over 850 kids to our
+                                400-acre Star Lake Camp, an outdoor oasis just
+                                one hour from the heart of Manhattan.
+                              </p>
+                              <p style="font-size: 14px; text-align: justify">
+                                In addition to activities like hiking, swimming,
+                                arts and crafts, archery, and music classes, our
+                                campers enjoyed a special visit during Sports
+                                Week from New York Giants alumni Keith Elias and
+                                Roman Oben, as well as Minnesota Timberwolves
+                                co-owner Marc Lore.
+                              </p>
+                              <p style="font-size: 14px; text-align: justify">
+                                They brought a motivating message of persistence
+                                and perseverance to campers, and how continual
+                                drive can propel kids forward to excel in their
+                                careers.
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!- SUMMER CAMP MOBILE -->
+        <tr class="summer-camp-mobile">
+          <td>
+            <table width="100%">
+              <tr>
+                <td class="two-columns">
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <img
+                                class="summer-camp"
+                                src="images/responsive-images/summer-camp-image.png"
+                                alt="Summer Camp"
+                                style="border-radius: 2px"
+                              />
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+
+                <td class="two-columns" style="width: 100%">
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <p style="font-weight: bold">Summer Camp</p>
+                              <p style="font-size: 14px; text-align: justify">
+                                This summer, we welcomed over 850 kids to our
+                                400-acre Star Lake Camp, an outdoor oasis just
+                                one hour from the heart of Manhattan.
+                              </p>
+                              <p style="font-size: 14px; text-align: justify">
+                                In addition to activities like hiking, swimming,
+                                arts and crafts, archery, and music classes, our
+                                campers enjoyed a special visit during Sports
+                                Week from New York Giants alumni Keith Elias and
+                                Roman Oben, as well as Minnesota Timberwolves
+                                co-owner Marc Lore.
+                              </p>
+                              <p style="font-size: 14px; text-align: justify">
+                                They brought a motivating message of persistence
+                                and perseverance to campers, and how continual
+                                drive can propel kids forward to excel in their
+                                careers.
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!- HORIZONTAL LINE -->
+        <!-- <tr height="5" style="background-color: #ef3e42">
+          <td></td>
+        </tr> -->
+        <!- KEITH ELIAS QUOTE -->
+        <tr>
+          <td style="padding: 30px 30px 60px 30px">
+            <table>
+              <tr>
+                <p
+                  style="
+                    text-align: left;
+                    font-size: 26px;
+                    color: #969696;
+                    margin: 0;
+                    margin-bottom: 10px;
+                  "
+                >
+                  &#8220;
+                </p>
+              </tr>
+              <tr>
+                <p
+                  style="
+                    text-align: center;
+                    font-size: 26px;
+                    color: #969696;
+                    margin: 0;
+                  "
+                >
+                  What makes a hero a hero? A hero uses their talents, gifts,
+                  and abilities to help other people.
+                </p>
+              </tr>
+              <tr>
+                <p
+                  style="
+                    text-align: right;
+                    font-size: 26px;
+                    color: #969696;
+                    margin: 0;
+                    margin-top: 10px;
+                  "
+                >
+                  &#8221;
+                </p>
+              </tr>
+              <tr>
+                <p
+                  style="
+                    text-align: center;
+                    font-size: 26px;
+                    font-weight: bold;
+                    color: #969696;
+                    padding-bottom: 30px;
+                    margin: 0;
+                    margin-top: 20px;
+                  "
+                >
+                  - Keith Elias
+                </p>
+              </tr>
+              <tr>
+                <p style="text-align: center">
+                  <a
+                    href="#"
+                    style="
+                      background-color: #ef3e42;
+                      color: white;
+                      font-weight: bold;
+                      padding: 10px 15px;
+                      border-radius: 2px;
+                      text-decoration: none;
+                      margin: 0;
+                    "
+                    >Play TikTok</a
+                  >
+                </p>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!- HORIZONTAL LINE -->
+        <!-- <tr width="100%" height="5" style="background-color: #ef3e42">
+          <td></td>
+        </tr> -->
+        <!- WE SCREAM FOR ICE CREAM DESKTOP -->
+        <tr class="ice-cream-desktop">
+          <td>
+            <table width="100%">
+              <tr>
+                <td class="two-columns">
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <p style="font-weight: bold">
+                                We Scream for Ice Cream
+                              </p>
+                              <p style="font-size: 14px; text-align: justify">
+                                Our Newburgh location introduced their brand new
+                                Ice Cream cart this summer with frequent trips
+                                out during the week to offer free ice cream to
+                                children and adults in the community.
+                              </p>
+                              <p style="font-size: 14px; text-align: justify">
+                                This presented an opportunity to get to know our
+                                neighbors and to share valuable information
+                                about the programs and services available out of
+                                our community and worship center.
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+
+                <td class="two-columns">
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <img
+                                class="ice-cream"
+                                src="images/responsive-images/ice-cream-image.png"
+                                alt="We Scream for Ice Cream"
+                                style="border-radius: 2px"
+                              />
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!- WE SCREAM FOR ICE CREAM MOBILE -->
+        <tr class="ice-cream-mobile">
+          <td>
+            <table width="100%">
+              <tr>
+                <td class="two-columns">
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <img
+                                class="ice-cream"
+                                src="images/responsive-images/ice-cream-image.png"
+                                alt="We Scream for Ice Cream!"
+                                style="border-radius: 2px"
+                              />
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+
+                <td class="two-columns" style="width: 100%">
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <p style="font-weight: bold">
+                                We Scream for Ice Cream!
+                              </p>
+                              <p style="font-size: 14px; text-align: justify">
+                                Our Newburgh location introduced their brand new
+                                Ice Cream cart this summer with frequent trips
+                                out during the week to offer free ice cream to
+                                children and adults in the community.
+                              </p>
+                              <p style="font-size: 14px; text-align: justify">
+                                This presented an opportunity to get to know our
+                                neighbors and to share valuable information
+                                about the programs and services available out of
+                                our community and worship center.
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!- COOLING CENTERS DESKTOP -->
+        <tr class="cooling-centers-desktop">
+          <td>
+            <table width="100%">
+              <tr>
+                <td class="two-columns">
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <img
+                                class="cooling-centers"
+                                src="images/responsive-images/cooling-center-image.png"
+                                alt="Cooling Centers"
+                                style="border-radius: 2px"
+                              />
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+
+                <td class="two-columns" style="width: 100%">
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <p style="font-weight: bold">Cooling Centers</p>
+                              <p style="font-size: 14px; text-align: justify">
+                                As part of a partnership with New York City
+                                Emergency Management, The Salvation Army opened
+                                many of its city locations as cooling centers
+                                during active heat advisories this summer.
+                              </p>
+                              <p style="font-size: 14px; text-align: justify">
+                                Zachary Hodgson, our Director of Emergency
+                                Services, encouraged New Yorkers to check on
+                                their vulnerable neighbors during high
+                                temperatures and to stop at one of our cooling
+                                centers for a snack, cold drink, and seat in the
+                                air conditioning.
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!-- BUTTON DESKTOP -->
+        <tr class="button-desktop">
+          <td>
+            <p style="text-align: center">
+              <a
+                href="#"
+                style="
+                  background-color: #ef3e42;
+                  color: white;
+                  font-weight: bold;
+                  padding: 10px 15px;
+                  border-radius: 2px;
+                  text-decoration: none;
+                  margin: 0;
+                "
+                >Watch News 12 Story</a
+              >
+            </p>
+          </td>
+        </tr>
+        <!- COOLING CENTERS MOBILE -->
+        <tr class="cooling-centers-mobile">
+          <td>
+            <table width="100%">
+              <tr>
+                <td class="two-columns">
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <img
+                                class="cooling-centers"
+                                src="images/responsive-images/cooling-center-image.png"
+                                alt="Cooling Centers"
+                                style="border-radius: 2px"
+                              />
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+
+                <td class="two-columns" style="width: 100%">
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <p style="font-weight: bold">Cooling Centers</p>
+                              <p style="font-size: 14px; text-align: justify">
+                                As part of a partnership with New York City
+                                Emergency Management, The Salvation Army opened
+                                many of its city locations as cooling centers
+                                during active heat advisories this summer.
+                              </p>
+                              <p style="font-size: 14px; text-align: justify">
+                                Zachary Hodgson, our Director of Emergency
+                                Services, encouraged New Yorkers to check on
+                                their vulnerable neighbors during high
+                                temperatures and to stop at one of our cooling
+                                centers for a snack, cold drink, and seat in the
+                                air conditioning.
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                        <!-- BUTTON -->
+                        <table width="100%" style="margin-top: 25px">
+                          <tr>
+                            <td>
+                              <p>
+                                <a
+                                  href="#"
+                                  style="
+                                    background-color: #ef3e42;
+                                    color: white;
+                                    font-weight: bold;
+                                    padding: 10px 15px;
+                                    border-radius: 2px;
+                                    text-decoration: none;
+                                    margin: 0;
+                                  "
+                                  >Watch News 12 Story</a
+                                >
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!- BACK TO SCHOOL DESKTOP -->
+        <tr class="back-to-school-desktop">
+          <td>
+            <table width="100%">
+              <tr>
+                <td class="two-columns">
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <p style="font-weight: bold">Back-to-School</p>
+                              <p style="font-size: 14px; text-align: justify">
+                                On August 10, New York Cares partnered with The
+                                Salvation Army to pack 8,000 backpacks to be
+                                distributed at our 38 local community centers.
+                              </p>
+                              <p style="font-size: 14px; text-align: justify">
+                                We know these gifts of school supplies will help
+                                to ease the financial burden placed on families
+                                and provide the necessary tools young students
+                                need to thrive in the upcoming school year.
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+
+                <td class="two-columns">
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <img
+                                class="back-to-school"
+                                src="images/responsive-images/back-to-school-image.png"
+                                alt="We Scream for Ice Cream"
+                                style="border-radius: 2px"
+                              />
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!- BACK TO SCHOOL MOBILE -->
+        <tr class="back-to-school-mobile">
+          <td>
+            <table width="100%">
+              <tr>
+                <td class="two-columns">
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <img
+                                class="back-to-school"
+                                src="images/responsive-images/back-to-school-image.png"
+                                alt="We Scream for Ice Cream!"
+                                style="border-radius: 2px"
+                              />
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+
+                <td class="two-columns" style="width: 100%">
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <p style="font-weight: bold">Back-to-School</p>
+                              <p style="font-size: 14px; text-align: justify">
+                                On August 10, New York Cares partnered with The
+                                Salvation Army to pack 8,000 backpacks to be
+                                distributed at our 38 local community centers.
+                              </p>
+                              <p style="font-size: 14px; text-align: justify">
+                                We know these gifts of school supplies will help
+                                to ease the financial burden placed on families
+                                and provide the necessary tools young students
+                                need to thrive in the upcoming school year.
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!- MARITZA'S STORY DESKTOP -->
+        <tr class="maritzas-story-desktop">
+          <td>
+            <table width="100%">
+              <tr>
+                <td class="two-columns">
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <img
+                                class="maritzas-story"
+                                src="images/responsive-images/maritzas-story-image.png"
+                                alt="Cooling Centers"
+                                style="border-radius: 2px"
+                              />
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+
+                <td class="two-columns" style="width: 100%">
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <p style="font-weight: bold">Maritza's Story</p>
+                              <p style="font-size: 14px; text-align: justify">
+                                After travelling to the United States in hopes
+                                of securing a better situation for her family,
+                                Maritza and her children were met with continual
+                                roadblocks.
+                              </p>
+                              <p style="font-size: 14px; text-align: justify">
+                                When she turned to The Salvation Army for help,
+                                she was given the support that she needed to
+                                find housing, a job, and a safe place for her
+                                children to thrive. Through the toughest
+                                moments, faith and a sense of family encouraged
+                                Maritza to persevere.
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!-- BUTTON DESKTOP -->
+        <tr class="button-desktop">
+          <td>
+            <p style="text-align: center">
+              <a
+                href="#"
+                style="
+                  background-color: #ef3e42;
+                  color: white;
+                  font-weight: bold;
+                  padding: 10px 15px;
+                  border-radius: 2px;
+                  text-decoration: none;
+                  margin: 0;
+                "
+                >Watch Her Story</a
+              >
+            </p>
+          </td>
+        </tr>
+        <!- MARITZA'S STORY MOBILE -->
+        <tr class="maritzas-story-mobile">
+          <td>
+            <table width="100%">
+              <tr>
+                <td class="two-columns">
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <img
+                                class="maritzas-story"
+                                src="images/responsive-images/maritzas-story-image.png"
+                                alt="We Scream for Ice Cream!"
+                                style="border-radius: 2px"
+                              />
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+
+                <td class="two-columns" style="width: 100%">
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <p style="font-weight: bold">Maritza's Story</p>
+                              <p style="font-size: 14px; text-align: justify">
+                                After travelling to the United States in hopes
+                                of securing a better situation for her family,
+                                Maritza and her children were met with continual
+                                roadblocks.
+                              </p>
+                              <p style="font-size: 14px; text-align: justify">
+                                When she turned to The Salvation Army for help,
+                                she was given the support that she needed to
+                                find housing, a job, and a safe place for her
+                                children to thrive. Through the toughest
+                                moments, faith and a sense of family encouraged
+                                Maritza to persevere.
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                        <!-- BUTTON -->
+                        <table width="100%" style="margin-top: 25px">
+                          <tr>
+                            <td>
+                              <p>
+                                <a
+                                  href="#"
+                                  style="
+                                    background-color: #ef3e42;
+                                    color: white;
+                                    font-weight: bold;
+                                    padding: 10px 15px;
+                                    border-radius: 2px;
+                                    text-decoration: none;
+                                    margin: 0;
+                                  "
+                                  >Watch Her Story</a
+                                >
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!- ANDY GRAMMER BENEFIT CONCERT DESKTOP -->
+        <tr class="andy-grammer-desktop">
+          <td>
+            <table width="100%">
+              <tr>
+                <td class="two-columns" style="width: 100%">
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <p style="font-weight: bold">
+                                Benefit Concert featuring Andy Grammer
+                              </p>
+                              <p style="font-size: 14px; text-align: justify">
+                                On October 6th, 2022 The Salvation Army Greater
+                                New York Division will host an intimate acoustic
+                                benefit concert featuring multi-platinum singer
+                                and songwriter Andy Grammer.
+                              </p>
+                              <p style="font-size: 14px; text-align: justify">
+                                Proceeds from the concert will fund efforts to
+                                combat food insecurity and homelessness in our
+                                area.
+                              </p>
+                              <p style="font-size: 14px; text-align: justify">
+                                For more information about the concert, please
+                                visit salvationarmyny.org/concert
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+                <td class="two-columns">
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <img
+                                class="andy-grammer"
+                                src="images/responsive-images/andy-grammer-image.png"
+                                alt="Cooling Centers"
+                                style="border-radius: 2px"
+                              />
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!-- BUTTON DESKTOP -->
+        <tr class="button-desktop">
+          <td>
+            <p style="text-align: center">
+              <a
+                href="#"
+                style="
+                  background-color: #ef3e42;
+                  color: white;
+                  font-weight: bold;
+                  padding: 10px 15px;
+                  border-radius: 2px;
+                  text-decoration: none;
+                  margin: 0;
+                "
+                >Purchase Tickets</a
+              >
+            </p>
+          </td>
+        </tr>
+        <!- ANDY GRAMMER BENEFIT CONCERT MOBILE -->
+        <tr class="andy-grammer-mobile">
+          <td>
+            <table width="100%">
+              <tr>
+                <td class="two-columns">
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <img
+                                class="andy-grammer"
+                                src="images/responsive-images/andy-grammer-image.png"
+                                alt="Cooling Centers"
+                                style="border-radius: 2px"
+                              />
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+
+                <td class="two-columns" style="width: 100%">
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <p style="font-weight: bold">
+                                Benefit Concert featuring Andy Grammer
+                              </p>
+                              <p style="font-size: 14px; text-align: justify">
+                                On October 6th, 2022 The Salvation Army Greater
+                                New York Division will host an intimate acoustic
+                                benefit concert featuring multi-platinum singer
+                                and songwriter Andy Grammer.
+                              </p>
+                              <p style="font-size: 14px; text-align: justify">
+                                Proceeds from the concert will fund efforts to
+                                combat food insecurity and homelessness in our
+                                area.
+                              </p>
+                              <p style="font-size: 14px; text-align: justify">
+                                For more information about the concert, please
+                                visit salvationarmyny.org/concert
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                        <!-- BUTTON -->
+                        <table width="100%" style="margin-top: 25px">
+                          <tr>
+                            <td>
+                              <p>
+                                <a
+                                  href="#"
+                                  style="
+                                    background-color: #ef3e42;
+                                    color: white;
+                                    font-weight: bold;
+                                    padding: 10px 15px;
+                                    border-radius: 2px;
+                                    text-decoration: none;
+                                    margin: 0;
+                                  "
+                                  >Purchase Tickets</a
+                                >
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </center>
+  </body>
+</html>
